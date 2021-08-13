@@ -15,50 +15,39 @@ function Resume() {
             <Title title={'Resume'} span={'resume'} />
             <InnerLayout>
                 <div className="small-title">
-                    <SmallTitle icon={briefcase} title={'Working Experience'} />
+                    <SmallTitle icon={briefcase} title={'Work Experience'} />
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'2015 - 2020'} 
-                        title={'Computer Science Teacher'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'Summer 2021'} 
+                        title={'Digital Innovation Intern'}
+                        subTitle={'Ameren'}
+                        text={'Software engineering intern for Digital Technology Operations - Infrastructure Automation within Ameren. Created an Ansible API utilizing Flask to run Ansible playbooks from a VRA endpoint and encrypted credentials at rest. Delivered a SharePoint File Rotate automation script to production so a SharePoint user does not overwrite the same file within a given SharePoint directory; Script was configurable by taking in a cutoff year to rotate files at and the respective SharePoint location and creates archive folders based on year. Built and drove the development of Pester unit tests within Powershell to simulate file rotation locally. Participated in daily and weekly agile scrum ceremonies, including refinement, having an active voice in retro, and daily scrums, among others. Wrote user stories in Jira based on requirement meetings with various stakeholders within Ameren Digital. Closely collaborated with other Innovation interns and software engineers. Presented project progress at the Digital Collegiate Report-out to upper management and leadership within Ameren, including the Chief Digital Information Officer.'} 
                     />
                     <ResumeItem 
-                        year={'2015 - Present'} 
-                        title={'Full Stack Developer'}
-                        subTitle={'Microsoft Studios'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'January 2021 - Present'} 
+                        title={'Course Staff'}
+                        subTitle={'University of Illinois at Urbana-Champaign'}
+                        text={'Course Assistant and incoming Associate for CS 125: Introduction to Computer Science at Illinois. Responsible for helping undergraduate students gain a solid foundation in core programming concepts several hours a week and making unique and original contributions to course content and assignments. '} 
                     />
                     <ResumeItem 
-                        year={'2010 - 2017'} 
-                        title={'User Interface Designer'}
-                        subTitle={'Google Inc'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'Summer 2019'} 
+                        title={'Software Engineering Intern'}
+                        subTitle={'Liquidware Labs'}
+                        text={'Developed an optimizer service that manages the performance of Windows-based workloads by de-prioritizing applications not in-focus by the user. Influenced the company’s inclusion of female employees in computing.'} 
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
-                    <SmallTitle icon={school} title={'Educational Qualifications'} />
+                    <SmallTitle icon={school} title={'Education'} />
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
-                        year={'201 - 2022'} 
-                        title={'Computer Science Degree'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'2020 - 2024'} 
+                        title={'Bachelor of Science in Computer Science & Linguistics'}
+                        subTitle={'University of Illinois at Urbana-Champaign'}
+                        text={"Dean's List"} 
                     />
-                    <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'A - Levels'}
-                        subTitle={'Church Hill High'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
-                    <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'High School Graduation'}
-                        subTitle={'ABC School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
+                    
                 </div>
             </InnerLayout>
         </ResumeStyled>    

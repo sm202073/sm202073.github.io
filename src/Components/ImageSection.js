@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import resume from '../img/resume.jpg';
+import resume from '../img/FallPic.jpg';
 import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
@@ -10,31 +10,15 @@ function ImageSection() {
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Lorem Ipsum</span></h4>
+                <h4>I am <span>Sana Madhavan</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim 
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
+                     I’m an empathetic, creative, analytical and self-motivated student pursuing a B.S. degree in Computer Science & Linguistics 
+                     at the University of Illinois at Urbana-Champaign, graduating in May 2024. 
+                     With strong communication skills and the desire and ability to collaborate and contribute while engaging in a process of continuous learning, 
+                     I hope to pursue the areas of Software Engineering and Product Management, Natural Language Processing, and Social Impact through Civic Technology, the intersection of technology with the public sector. 
                     
                 </p>
-                <div className="about-info">
-                    <div className="info-title">
-                        <p>Full Name</p>
-                        <p>Age</p>
-                        <p>Nationality </p>
-                        <p>Languages </p>
-                        <p>Location</p>
-                        <p>Service</p>
-                    </div>
-                    <div className="info">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 36</p>
-                        <p>: Spainsh </p>
-                        <p>: Spanish, French, English </p>
-                        <p>: London, United Kingdom</p>
-                        <p>: Freelance</p>
-                    </div>
-                </div>
+                
                 <PrimaryButton title={'Download Cv'} />
             </div>
         </ImageSectionStyled>

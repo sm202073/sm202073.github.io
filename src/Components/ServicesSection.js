@@ -11,24 +11,21 @@ function ServicesSection() {
     return (
         <InnerLayout>
             <ServicesSectionStyled>
-                <Title title={'Services'} span={'services'} />
+                <Title title={'Awards'} span={'services'} />
                 <div className="services">
                     <ServiceCard 
-                        image={design} 
-                        title={'Web Design'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        title={'General Electric Star Award'} 
+                        paragraph={'Selected as a recipient of the General Electric scholarship award applied towards a four-year university.'}
                     />
                     <div className="mid-card">
-                        <ServiceCard 
-                            image={intelligence} 
-                            title={'Artificial Intelligence'} 
-                            paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        <ServiceCard
+                            title={'Published Author'} 
+                            paragraph={'Published a fictional book in 2012 and published journalist in the Daily Illini, official University of Illinois newspaper'}
                         />
                     </div>
                     <ServiceCard 
-                        image={gamedev} 
-                        title={'Game Development'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        title={'NCWIT Aspirations in Computing Award Winner'} 
+                        paragraph={'Awarded based on outstanding aptitude and interest in computing and technology by the National Center for Women & Information Technology'}
                     />
                 </div>
             </ServicesSectionStyled>

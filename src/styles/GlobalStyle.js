@@ -23,8 +23,8 @@ const GlobalStyle = createGlobalStyle`
 } */
 
 .light-theme{
-    --primary-color: #007bff;
-    --primary-color-light: #057FFF;
+    --primary-color: #CBC2C2;
+    --primary-color-light: #CBC2C2;
     --secondary-color: #ff7675;
     --background-dark-color: #F1F1F1;
     --background-dark-grey: #e4e4e4;
@@ -41,8 +41,8 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-track-color: #383838;
 }
 .dark-theme{
-    --primary-color: #007bff;
-    --primary-color-light: #057FFF;
+    --primary-color: #CBC2C2;
+    --primary-color-light: #CBC2C2;
     --secondary-color: #6c757d;
     --background-dark-color: #10121A;
     --background-dark-grey: #191D2B;

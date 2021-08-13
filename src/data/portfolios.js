@@ -7,7 +7,7 @@ import img3 from '../img/portImages/maya-3.jpg';
 const portfolios = [
     {
         id: 1,
-        category: 'CSS',
+        category: 'Python',
         image: css1,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
@@ -16,7 +16,7 @@ const portfolios = [
     },
     {
         id: 2,
-        category: 'Python',
+        category: 'PowerShell',
         image: img3,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
@@ -59,15 +59,6 @@ const portfolios = [
         title: 'Responsive Portfolio Website',
         text: 'Created using different technologies such as Material UI, Styled-Components and more...'
     },
-    {
-        id: 7,
-        category: 'CSS',
-        image: css2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Microsoft Website Clone',
-        text: 'Created using HTML and CSS'
-    }
 ]
 
 export default portfolios;

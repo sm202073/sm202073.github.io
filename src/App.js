@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import HomePage from "./Pages/HomePage";
 import AboutPage from './Pages/AboutPage';
 import ResumePage from './Pages/ResumePage';
-import PortfoliosPage from './Pages/PortfoliosPage';
+// import PortfoliosPage from './Pages/PortfoliosPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
@@ -81,9 +81,9 @@ function App() {
             <Route path="/resume" exact>
               <ResumePage />
             </Route>
-            <Route path="/portfolios" exact>
+            {/* <Route path="/portfolios" exact>
               <PortfoliosPage />
-            </Route>
+            </Route> */}
             <Route path="/blogs" exact>
                <BlogsPage />
             </Route>

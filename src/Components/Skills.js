@@ -12,29 +12,29 @@ function Skills() {
                 <InnerLayout>
                     <div className="skills">
                         <ProgressBar 
-                            title={'HTML5'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'CSS3'}
+                            title={'Object Oriented Programming in Java'}
                             width={'90%'}
                             text={'90%'}
                         />
                         <ProgressBar 
-                            title={'JAVASCRIPT'}
-                            width={'85%'}
-                            text={'85%'}
+                            title={'HTML, CSS, JavaScript'}
+                            width={'65%'}
+                            text={'65%'}
                         />
                         <ProgressBar 
-                            title={'JAVA'}
+                            title={'React JS'}
                             width={'60%'}
                             text={'60%'}
                         />
                         <ProgressBar 
-                            title={'PYTHON'}
-                            width={'95%'}
-                            text={'95%'}
+                            title={'Visual Studio Code'}
+                            width={'50%'}
+                            text={'50%'}
+                        />
+                        <ProgressBar 
+                            title={'Python'}
+                            width={'40%'}
+                            text={'40%'}
                         />
                         <ProgressBar 
                             title={'React JS'}
@@ -42,10 +42,23 @@ function Skills() {
                             text={'75%'}
                         />
                         <ProgressBar 
-                            title={'UNITY'}
+                            title={'Github & Git'}
                             width={'75%'}
                             text={'75%'}
                         />
+
+                        <ProgressBar 
+                            title={'Features and Technical Writing'}
+                            width={'60%'}
+                            text={'60%'}
+                        />
+
+                        <ProgressBar 
+                            title={'Intellectually curious & willing to learn'}
+                            width={'100%'}
+                            text={'100%'}
+                        />
+
                     </div>
                 </InnerLayout>
         </SkillsStyled>

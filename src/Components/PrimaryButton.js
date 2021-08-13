@@ -3,9 +3,10 @@ import styled from 'styled-components';
 
 function PrimaryButton({title}) {
     return (
-        <PrimaryButtonStyled>
+        <a href = "https://issuu.com/sana.m_20/docs/sanamadhavantechnicalresume"> <PrimaryButtonStyled>
             {title}
         </PrimaryButtonStyled>
+        </a>
     )
 }
 

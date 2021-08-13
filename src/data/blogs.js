@@ -1,45 +1,86 @@
-import blog1 from  '../img/blogs/blog1.svg';
-import blog3 from  '../img/blogs/blog3.svg';
-import blog2 from  '../img/blogs/blog2.svg';
-import blog4 from  '../img/blogs/blog4.svg';
+import blog1 from  '../img/powershell.png';
+import blog3 from  '../img/blogs/wcs.png';
+import blog2 from  '../img/blogs/flask.png';
+import blog4 from  '../img/blogs/csmhc.png';
+import blog5 from  '../img/blogs/wie.png';
+import blog6 from  '../img/blogs/acm.png';
+import blog7 from  '../img/blogs/react.png';
+import blog8 from  '../img/blogs/aoe.jpeg';
+import blog9 from  '../img/blogs/percent.png';
 
 const blogs = [
     {
         id: 1,
-        title: 'How To Work from Home',
+        title: 'File Rotate Automation Script',
         date: '01',
-        month: 'April',
-        image: blog1
+        month: 'July',
+        image: blog1,
+        link: 'https://github.com/sm202073/fileRotateAutomation'
     },
     {
         id: 2,
-        title: 'How To Use SEO Efficiently',
+        title: 'Flask API for Ansible Playbooks',
         date: '01',
-        month: 'April',
-        image: blog2
+        month: 'June',
+        image: blog2,
+        link: 'https://github.com/sm202073/AnsibleAutomationAPI'
     },
     {
         id: 3,
-        title: 'How to choose a programming Language',
+        title: 'Women in Computer Science Technical Guides',
         date: '01',
         month: 'April',
         image: blog3,
-        link: 'https://www.google.co.uk/'
+        link: 'http://wcs.illinois.edu/resources/technical.html'
     },
     {
         id: 4,
-        title: 'How To Tse SEO Efficiently',
+        title: 'Outreach Chair of Computer Science Mental Health Committee',
         date: '01',
-        month: 'April',
-        image: blog4
+        month: 'May',
+        image: blog4,
+        link: 'https://www.csmhcillinois.com/'
     },
     {
         id: 5,
-        title: 'How To Tse SEO Efficiently',
+        title: 'Mentoring for Women in Engineering at Universiy of Illinois',
         date: '01',
         month: 'April',
-        image: blog4
+        image: blog5,
+        link: 'https://wie.engineering.illinois.edu/meet-the-computer-science-x-mentors/'
+    },
+    {
+        id: 6,
+        title: 'Student Mentor in Association for Computing Machinery UIUC Chapter',
+        date: '01',
+        month: 'May',
+        image: blog6,
+        link: 'https://wie.engineering.illinois.edu/meet-the-computer-science-x-mentors/'
+    }, 
+    {
+        id: 7,
+        title: 'Mental Health React App - Sapling',
+        date: '01',
+        month: 'May',
+        image: blog7
+    },
+    {
+        id: 8,
+        title: 'Scholarship Chair in Alpha Omega Epsilon Engineering and Technical Science Sorority',
+        date: '01',
+        month: 'May',
+        image: blog8,
+        link:'https://aoetheta.org/'
+    },
+    {
+        id: 9,
+        title: 'Percentage Project Data Driven Advocacy for Minorities in Computing',
+        date: '01',
+        month: 'May',
+        image: blog9,
+        link:'https://www.percentageproject.org/'
     }
+
 ]
 
 export default blogs;
