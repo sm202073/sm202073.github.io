@@ -22,7 +22,7 @@ function Resume() {
                         year={'Summer 2022'} 
                         title={'Digital Technology Development Intern'}
                         subTitle={'General Electric'}
-                        text={'VMO'} 
+                        text={'VMO team'} 
                     />
                     <ResumeItem 
                         year={'Summer 2021'} 
