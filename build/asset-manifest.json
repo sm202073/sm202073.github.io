@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/static/js/main.113d4947.chunk.js",
+    "main.js.map": "/static/js/main.113d4947.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cb0dc031.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cb0dc031.js.map",
+    "static/js/2.33ac6aa6.chunk.js": "/static/js/2.33ac6aa6.chunk.js",
+    "static/js/2.33ac6aa6.chunk.js.map": "/static/js/2.33ac6aa6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.33ac6aa6.chunk.js.LICENSE.txt": "/static/js/2.33ac6aa6.chunk.js.LICENSE.txt",
+    "static/media/acm.f30e431e.png": "/static/media/acm.f30e431e.png",
+    "static/media/aoe.6f3dbd9f.jpeg": "/static/media/aoe.6f3dbd9f.jpeg",
+    "static/media/chicagoportrait.053c31d5.JPG": "/static/media/chicagoportrait.053c31d5.JPG",
+    "static/media/design.8ecb3043.svg": "/static/media/design.8ecb3043.svg",
+    "static/media/flask.8504acba.png": "/static/media/flask.8504acba.png",
+    "static/media/game-dev.20147858.svg": "/static/media/game-dev.20147858.svg",
+    "static/media/intelligence.11bd2ab2.svg": "/static/media/intelligence.11bd2ab2.svg",
+    "static/media/linkedinpic.f3b3bc8c.jpg": "/static/media/linkedinpic.f3b3bc8c.jpg",
+    "static/media/percent.72762598.png": "/static/media/percent.72762598.png",
+    "static/media/powershell.92bd1d99.png": "/static/media/powershell.92bd1d99.png",
+    "static/media/react.73ac128a.png": "/static/media/react.73ac128a.png",
+    "static/media/wie.f0d04747.png": "/static/media/wie.f0d04747.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb0dc031.js",
+    "static/js/2.33ac6aa6.chunk.js",
+    "static/js/main.113d4947.chunk.js"
+  ]
+}
