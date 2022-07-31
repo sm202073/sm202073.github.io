@@ -19,8 +19,14 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
+                        year={'Summer 2022'} 
+                        title={'Digital Technology Development Intern'}
+                        subTitle={'General Electric'}
+                        text={''} 
+                    />
+                    <ResumeItem 
                         year={'Summer 2021'} 
-                        title={'Digital Innovation Intern'}
+                        title={'Software Engineer Intern'}
                         subTitle={'Ameren'}
                         text={'Software engineering intern for Digital Technology Operations - Infrastructure Automation within Ameren. Created an Ansible API utilizing Flask to run Ansible playbooks from a VRA endpoint and encrypted credentials at rest. Delivered a SharePoint File Rotate automation script to production so a SharePoint user does not overwrite the same file within a given SharePoint directory; Script was configurable by taking in a cutoff year to rotate files at and the respective SharePoint location and creates archive folders based on year. Built and drove the development of Pester unit tests within Powershell to simulate file rotation locally. Participated in daily and weekly agile scrum ceremonies, including refinement, having an active voice in retro, and daily scrums, among others. Wrote user stories in Jira based on requirement meetings with various stakeholders within Ameren Digital. Closely collaborated with other Innovation interns and software engineers. Presented project progress at the Digital Collegiate Report-out to upper management and leadership within Ameren, including the Chief Digital Information Officer.'} 
                     />
