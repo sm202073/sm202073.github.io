@@ -7,8 +7,7 @@ function Particle() {
     <>
       <Particles
       id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
+    
       options={{
         background: {
           color: {
