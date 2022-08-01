@@ -9,9 +9,9 @@ import EmailIcon from '@material-ui/icons/Email';
 function HomePage() {
     return (
         <HomePageStyled>
-            <div className="particle-con">
+            {/* <div className="particle-con">
                 <Particle />
-            </div>
+            </div> */}
             <div className="typography">
                 <h1>Hi, I'm <span>Sana Madhavan</span></h1>
                 <p>
